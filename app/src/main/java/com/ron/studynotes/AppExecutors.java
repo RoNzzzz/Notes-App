@@ -1,4 +1,4 @@
-package com.example.keepnotes;
+package com.ron.studynotes;
 
 import android.os.Handler;
 import android.os.Looper;

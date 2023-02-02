@@ -1,10 +1,10 @@
-package com.example.keepnotes;
+package com.ron.studynotes;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.keepnotes.databases.AppDatabase;
+import com.ron.studynotes.databases.AppDatabase;
 
 import org.jetbrains.annotations.NotNull;
 

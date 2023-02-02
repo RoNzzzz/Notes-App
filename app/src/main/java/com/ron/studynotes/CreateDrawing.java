@@ -1,4 +1,4 @@
-package com.example.keepnotes;
+package com.ron.studynotes;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,8 +16,6 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.kyanogen.signatureview.SignatureView;
-
-import java.security.Signature;
 
 import yuku.ambilwarna.AmbilWarnaDialog;
 

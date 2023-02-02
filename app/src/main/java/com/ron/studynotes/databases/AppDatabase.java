@@ -1,4 +1,4 @@
-package com.example.keepnotes.databases;
+package com.ron.studynotes.databases;
 
 import android.content.Context;
 import android.util.Log;

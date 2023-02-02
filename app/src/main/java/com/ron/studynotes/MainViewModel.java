@@ -1,4 +1,4 @@
-package com.example.keepnotes;
+package com.ron.studynotes;
 
 import android.app.Application;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.keepnotes.databases.AppDatabase;
-import com.example.keepnotes.databases.NotesEntry;
+import com.ron.studynotes.databases.AppDatabase;
+import com.ron.studynotes.databases.NotesEntry;
 
 import org.jetbrains.annotations.NotNull;
 

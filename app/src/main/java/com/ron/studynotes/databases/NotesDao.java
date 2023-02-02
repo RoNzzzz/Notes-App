@@ -1,4 +1,4 @@
-package com.example.keepnotes.databases;
+package com.ron.studynotes.databases;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

@@ -1,10 +1,10 @@
-package com.example.keepnotes;
+package com.ron.studynotes;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.keepnotes.databases.AppDatabase;
-import com.example.keepnotes.databases.NotesEntry;
+import com.ron.studynotes.databases.AppDatabase;
+import com.ron.studynotes.databases.NotesEntry;
 
 public class AddNoteViewModel extends ViewModel {
 

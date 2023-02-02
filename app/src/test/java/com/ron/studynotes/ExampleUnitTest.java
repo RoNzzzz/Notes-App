@@ -1,4 +1,4 @@
-package com.example.keepnotes;
+package com.ron.studynotes;
 
 import org.junit.Test;
 

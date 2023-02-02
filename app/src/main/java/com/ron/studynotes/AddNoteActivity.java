@@ -1,4 +1,4 @@
-package com.example.keepnotes;
+package com.ron.studynotes;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,11 +9,9 @@ import androidx.core.app.NavUtils;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import android.app.AlertDialog;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
@@ -34,14 +32,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
-import com.example.keepnotes.databases.AppDatabase;
-import com.example.keepnotes.databases.NotesEntry;
+import com.ron.studynotes.databases.AppDatabase;
+import com.ron.studynotes.databases.NotesEntry;
 import com.github.dhaval2404.imagepicker.ImagePicker;
-import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.bottomappbar.BottomAppBar;
-import com.skydoves.transformationlayout.TransformationAppCompatActivity;
-import com.skydoves.transformationlayout.TransformationCompat;
-import com.skydoves.transformationlayout.TransformationLayout;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
