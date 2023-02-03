@@ -52,7 +52,6 @@ public class AddNoteActivity extends AppCompatActivity {
     private TextView mDateTimeTextView;
     private boolean mNoteHasChanged = false;
     private String mNoteText = null;
-    private ImageButton mDrawBtn = null;
     private View.OnTouchListener mTouchListener = new View.OnTouchListener() {
         @Override
         public boolean onTouch(View v, MotionEvent event) {
@@ -93,13 +92,6 @@ public class AddNoteActivity extends AppCompatActivity {
         mDb = AppDatabase.getInstance(getApplicationContext());
 
         initViews();
-        mDrawBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(AddNoteActivity.this, CreateDrawing.class);
-                startActivity(intent);
-            }
-        });
         mTitleEditText.setOnTouchListener(mTouchListener);
         mNoteEditText.setOnTouchListener(mTouchListener);
         mImageNote.setOnTouchListener(mTouchListener);
@@ -262,7 +254,6 @@ public class AddNoteActivity extends AppCompatActivity {
         mImageNote = findViewById(R.id.image_note);
         mBottomAppBar = findViewById(R.id.bottom_bar);
         mDateTimeTextView = findViewById(R.id.note_activity_date);
-        mDrawBtn = findViewById(R.id.draw_icon);
     }
 
     @Override
